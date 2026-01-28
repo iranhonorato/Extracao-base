@@ -8,11 +8,11 @@ langchain>=0.3.0
 langchain-openai>=0.2.0
 
 # ReAct Agents & Tools 
-langchain-core>=0.3.0
+langchain-core>=0.3.34
 langchain-community>=0.3.0
 
 # Vector database 
-langchain-pinecone==0.2.13
+langchain-pinecone==0.2.0
 pinecone>=5.0.0
 
 # Chunking e controle de tokens
