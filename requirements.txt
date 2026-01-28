@@ -3,21 +3,25 @@ python-dotenv==1.2.1
 pydantic==2.12.5
 tqdm==4.67.1
 
-# Langchain Basics
-langchain==1.2.7
-langchain-openai==1.1.7
+# Langchain Basics 
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# ReAct Agents & Tools 
+langchain-core>=0.3.0
+langchain-community>=0.3.0
 
 # Vector database 
 langchain-pinecone==0.2.13
-pinecone>=3.0.0
+pinecone>=5.0.0
 
-# Chunking correto e controle de tokens
-langchain-text-splitters==1.1.0
-tiktoken==0.12.0
+# Chunking e controle de tokens
+langchain-text-splitters>=0.3.0
+tiktoken==0.8.0
 
 # Extração de textos
-pdfplumber>=0.10.0
+pdfplumber>=0.11.0
 
 # Data science
-pandas==3.0.0
+pandas>=2.2.0
 openpyxl==3.1.5
